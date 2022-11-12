@@ -1,0 +1,72 @@
+
+body{
+    background-size: cover;
+    /*background-image:url('https://cdn.mos.cms.futurecdn.net/HsDtpFEHbDpae6wBuW5wQo-1200-80.jpg');*/
+    background-image: url('https://img.freepik.com/premium-vector/black-hole-vortex-with-lightning-flash-outside-science-concept-background-widescreen-vector-illust_48799-1960.jpg?w=1060');
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+img{
+    width:200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left {
+    color: rgb(230, 155, 127);
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+}
+.right{
+    color: rgb(230, 155, 127);
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    right: 30px;
+    /*top: 8px;*/
+
+}
+
+
+    @media only screen and (max-width:640px) {
+        .lef{
+            width: 80px;
+            height: 100px;
+        }
+    }
+    @media screen and (min-device-width: 641px) and (max-device-width: 1200px) {
+        .lef{
+            width: 200px;
+            height: 100px;
+        }
+    }
+
+    @media only screen and (max-width:640px) {
+        .righ{
+            width: 80px;
+            height: 100px;
+        }
+    }
+    @media screen and (min-device-width: 641px) and (max-device-width: 1200px) {
+        .righ{
+            width: 200px;
+            height: 100px;
+        }
+    }
+    .para-main{
+        text-align: center;
+        font-size: 60px;
+        color: white;
+    }
+    .head{
+        text-align: center;
+        font-size: 40px;
+        color:white;
+    }
